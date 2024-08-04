@@ -71,12 +71,26 @@
 .suxnix .navbar-2 {
   display: inline-flex;
   align-items: flex-start;
+  margin-top: 25px;
   gap: 60px;
-  position: absolute;
+  position: relative; /* Hacer posicionable para que z-index funcione */
   top: 22px;
   left: 387px;
+  z-index: 10; /* Valor alto para asegurarse de que esté sobre otros elementos */
 }
 
+.suxnix .text-wrapper, .suxnix .text-wrapper-2 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Roboto", Helvetica;
+  font-weight: 600;
+  color: #777777;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 16px;
+  white-space: nowrap;
+}
 .suxnix .text-wrapper {
   position: relative;
   width: fit-content;
@@ -1877,7 +1891,7 @@
   position: relative;
   width: 410px;
   height: 708px;
-  background-color: #b1e5b2;
+  background-color: #9b0d2f;
   border-radius: 15px;
 }
 
