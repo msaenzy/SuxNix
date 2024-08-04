@@ -244,10 +244,50 @@
 .suxnix .overlap-2 {
   position: absolute;
   width: 2082px;
-  height: 1467px;
+  height: 14px;
   top: 107px;
   left: 0;
 }
+.overlap-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Alinea el texto y otros elementos al inicio */
+  width: 100%; /* Asegúrate de que el contenedor ocupe todo el ancho disponible */
+}
+
+.button-container {
+  display: flex;
+  justify-content: center; /* Alinea los botones a la derecha */
+  gap: 15px; /* Espacio entre botones */
+  margin-top: 5px; /* Espacio desde los elementos superiores */
+  width: 100%; /* Asegúrate de que el contenedor de botones ocupe todo el ancho */
+}
+
+.category-button {
+  background-color: #265223; /* Color oscuro exacto del botón */
+  color: #ffffff; /* Color del texto blanco */
+  font-family: "Roboto", Helvetica;
+  font-weight: 600;
+  font-size: 14px; /* Tamaño de fuente más pequeño */
+  letter-spacing: 0.5px;
+  border: none;
+  border-radius: 10px; /* Bordes redondeados */
+  padding: 10px 20px; /* Reducido para hacer el botón más pequeño */
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Transición para efecto suave */
+}
+
+.category-button:hover {
+  background-color: #16220f; /* Color un poco más oscuro al pasar el ratón */
+  transform: translateY(-2px); /* Efecto de elevación */
+}
+
+.category-button:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.5); /* Contorno al enfocarse */
+}
+
+
 
 .suxnix .increased-energy {
   position: absolute;
@@ -584,7 +624,7 @@
   height: 637px;
   top: 32px;
   left: 0;
-  background-color: #0d9b4d;
+  background-color: #9b0d2f;
 }
 
 .suxnix .element {
@@ -885,6 +925,48 @@
   background-color: #0d9b4d;
   border-radius: 50px;
 }
+.suxnix .button2 {
+  all: unset;
+  box-sizing: border-box;
+  display: inline-flex;
+  align-items: center; /* Center the text vertically */
+  justify-content: center; /* Center the text horizontally */
+  padding: 10px 20px; /* Adjust padding for desired size */
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #e19020; /* Brighter color for visibility */
+  border-radius: 8px; /* Slightly rounded corners */
+  width: 150px; /* Adjust width for a longer shape */
+  height: 60px; /* Adjust height for a slightly longer shape */
+  cursor: pointer; /* Change cursor on hover for better UX */
+  transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
+
+.suxnix .button3 {
+  all: unset;
+  box-sizing: border-box;
+  display: inline-flex;
+  align-items: center; /* Center the text vertically */
+  justify-content: center; /* Center the text horizontally */
+  padding: 10px 20px; /* Adjust padding for desired size */
+  position: absolute;
+  bottom: 40px; /* Move the button to the bottom */
+  left: 50%; /* Center the button horizontally */
+  transform: translateX(-50%); /* Center the button horizontally */
+  background-color: #e19020; /* Brighter color for visibility */
+  border-radius: 8px; /* Slightly rounded corners */
+  width: 150px; /* Adjust width for a longer shape */
+  height: 60px; /* Adjust height for a slightly longer shape */
+  cursor: pointer; /* Change cursor on hover for better UX */
+  transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
+
+.suxnix .button3:hover {
+  background-color: #cf7f1c; /* Darker shade on hover */
+}
+
+
 
 .suxnix .text-wrapper-12 {
   position: relative;
@@ -1795,7 +1877,7 @@
   position: relative;
   width: 410px;
   height: 708px;
-  background-color: #ffffff;
+  background-color: #b1e5b2;
   border-radius: 15px;
 }
 
@@ -3272,7 +3354,7 @@
   top: 105px;
   left: 0;
 }
-
+/***************
 .suxnix .group-63 {
   position: absolute;
   width: 1290px;
@@ -3331,6 +3413,7 @@
   background-color: #0d9b4d;
   opacity: 0.8;
 }
+ 
 
 .suxnix .instagram {
   position: absolute;
@@ -3362,7 +3445,7 @@
   left: 1032px;
   background-color: #bdbdbd;
 }
-
+ */
 .suxnix .element-27 {
   position: absolute;
   width: 133px;
@@ -4126,7 +4209,7 @@
   gap: 10px;
   padding: 0px 10px;
   position: relative;
-  background-color: #fc4a4a;
+  background-color: #ffffff;
   border-radius: 3px;
 }
 
@@ -4217,7 +4300,7 @@
   position: absolute;
   top: 0;
   left: 70px;
-  background-color: #faa432;
+  background-color: #ffffff;
   border-radius: 30px;
 }
 
