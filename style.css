@@ -1891,7 +1891,7 @@
   position: relative;
   width: 410px;
   height: 708px;
-  background-color: #8B0000;
+  background-color: #83615b;
   border-radius: 15px;
 }
 
@@ -2004,7 +2004,7 @@
   width: 100px;
   top: 0;
   left: 20px;
-  color: #777777;
+  color: #eadbdb;
   line-height: 26px;
   white-space: nowrap;
   position: absolute;
@@ -2013,6 +2013,21 @@
   font-size: 16px;
   letter-spacing: 0;
 }
+.suxnix .text-wrapper-666 {
+  width: 100px;
+  top: 0;
+  left: 20px;
+  color: #000000;
+  line-height: 26px;
+  white-space: nowrap;
+  position: absolute;
+  font-family: "Roboto", Helvetica;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0;
+}
+
+
 
 .suxnix .ellipse-10 {
   position: absolute;
@@ -2036,7 +2051,7 @@
   width: 137px;
   top: 0;
   left: 20px;
-  color: #777777;
+  color: #ffffff;
   line-height: 26px;
   white-space: nowrap;
   position: absolute;
@@ -2058,7 +2073,7 @@
   width: 162px;
   top: 0;
   left: 20px;
-  color: #777777;
+  color: #ffffff;
   line-height: 26px;
   white-space: nowrap;
   position: absolute;
@@ -2182,7 +2197,7 @@
   width: 146px;
   top: 0;
   left: 20px;
-  color: #777777;
+  color: #ffffff;
   line-height: 26px;
   white-space: nowrap;
   position: absolute;
@@ -2346,7 +2361,7 @@
   width: 109px;
   top: 0;
   left: 20px;
-  color: #777777;
+  color: #ffffff;
   line-height: 26px;
   white-space: nowrap;
   position: absolute;
@@ -2368,7 +2383,7 @@
   width: 171px;
   top: 0;
   left: 20px;
-  color: #777777;
+  color: #ffffff;
   line-height: 26px;
   white-space: nowrap;
   position: absolute;
@@ -2579,7 +2594,7 @@
 }
 
 .suxnix .text-wrapper-43 {
-  position: absolute;
+  position: CENTER;
   top: 8px;
   left: 0;
   font-family: "Roboto", Helvetica;
