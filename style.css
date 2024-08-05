@@ -116,6 +116,25 @@
   line-height: 16px;
   white-space: nowrap;
 }
+.suxnix .text-wrapper-2 a {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Roboto", Helvetica;
+  font-weight: 600;
+  color: #777777;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 16px;
+  white-space: nowrap;
+  text-decoration: none; /* Ensure no underline by default */
+  transition: color 0.3s ease; /* Smooth transition for color change */
+}
+
+.suxnix .text-wrapper-2 a:hover {
+  color: #ff2836; /* Change text color to blue on hover */
+}
+
 
 .suxnix .icon {
   position: absolute;
@@ -3910,7 +3929,7 @@
   height: 940px;
   top: 35px;
   left: 0;
-  background-color: #0d9b4d;
+  background-color: #9b0d2f;
 }
 
 .suxnix .mask-group-14 {
